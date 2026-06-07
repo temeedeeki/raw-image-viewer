@@ -5,6 +5,10 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+<div align="center">
+  <img width="600" alt="raw-image-viewer-screenshot" src="https://github.com/user-attachments/assets/23ae0dd4-294c-496e-9f5f-341a86e93386" />
+</div>
+
 作者：[@temeedeeki](https://github.com/temeedeeki)
 
 Visual Studio CodeのバイナリRAW画像ビューアー拡張機能です。
