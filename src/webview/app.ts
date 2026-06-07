@@ -1,3 +1,6 @@
+// Encoding: UTF-8
+// Author: @temeedeeki
+
 import "./styles.css";
 import { getTypedView, RAW_DATA_TYPE_INFO } from "../shared/raw";
 import type { RawDataType, RawEditorState } from "../shared/raw";

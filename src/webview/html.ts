@@ -1,3 +1,6 @@
+// Encoding: UTF-8
+// Author: @temeedeeki
+
 import * as vscode from "vscode";
 
 import { RAW_DATA_TYPE_INFO } from "../shared/raw";

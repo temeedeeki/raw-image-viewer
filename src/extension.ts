@@ -1,3 +1,6 @@
+// Encoding: UTF-8
+// Author: @temeedeeki
+
 import * as path from "node:path";
 import * as vscode from "vscode";
 

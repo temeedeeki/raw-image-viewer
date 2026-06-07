@@ -1,3 +1,6 @@
+// Encoding: UTF-8
+// Author: @temeedeeki
+
 export type RawDataType =
   | "bool"
   | "uint8"
