@@ -1,0 +1,53 @@
+name: バグ報告（Bug Report）
+description: エラーや予期しない挙動の報告
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issue作成前に、すでに同じバグが報告されていないかを確認してください。
+
+  - type: textarea
+    attributes:
+      label: 問題の概要
+      description: どのようなバグが発生していますか？可能であれば、再現手順を含めてください。
+      placeholder: |
+        例：
+        1. Visual Studio Codeを開く
+        2. RAW画像を開く
+        3. ～を～すると、～が発生する
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: エラーログ／出力
+      description: VS Codeに表示されたエラーメッセージなどがあれば、貼り付けてください。
+      render: shell
+      placeholder: |
+        ここにエラーメッセージを貼り付けてください。
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: 実行プラットフォーム
+      description: 使用しているOSやアーキテクチャ（`uname -orsm`の結果など）を教えてください。
+      placeholder: 例：Ubuntu 26.04 amd64, WSL2 Ubuntu 24.04, Linux 6.17.0-20-generic x86_64 GNU/Linux
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: バージョン
+      description: Raw Image Viewerのバージョンを教えてください。
+      placeholder: 例：0.0.1
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 補足事項
+      description: その他、関係があると思われる情報があれば記述してください。
+    validations:
+      required: false

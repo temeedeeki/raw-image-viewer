@@ -1,0 +1,41 @@
+name: 質問（Question）
+description: 使い方や仕様に関する質問
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        READMEや過去のIssueに同様の質問がないか確認してください。
+
+  - type: textarea
+    attributes:
+      label: 質問内容
+      description: 質問したい内容を詳しく記述してください。
+      placeholder: |
+        例：
+        - 〜は考慮されていますか。
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: 実行プラットフォーム
+      description: 使用しているOSやアーキテクチャ（`/etc/os-release`や`uname -orsm`の結果など）を教えてください（環境依存の質問でない場合は空欄で構いません）。
+      placeholder: 例：Ubuntu 26.04 amd64, WSL2 Ubuntu 24.04, Linux 6.17.0-20-generic x86_64 GNU/Linux
+    validations:
+      required: false
+
+  - type: input
+    attributes:
+      label: バージョン
+      description: Raw Image Viewerのバージョンを教えてください。
+      placeholder: 例：0.0.1
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 補足事項
+      description: その他、質問に関する情報があれば記述してください。
+    validations:
+      required: false
